@@ -1,9 +1,16 @@
 
 body {
+  font-family : YuGothic, '游ゴシック', sans-serif;
   text-align: center;
 }
 
 h1 {
+  margin-bottom: 1em;
+}
+
+h1 small {
+  font-size: 50%;
+  line-height: 2em;
 }
 
 .box {
@@ -14,18 +21,30 @@ h1 {
   font-size: xx-large;
 }
 
+.progress-box {
+  padding: 3em;
+}
+
+.deadline {
+  padding: 3em;
+}
+
+.remain {
+  font-size: 150%;
+}
+
 .github {
   display: block;
-  margin: 10em auto 5em;
+  margin: 5em auto;
   height: 60px;
   width:  60px;
   background-image: url(github.png);
   background-size: 100%;
-  background-position: bottom;
+  opacity: .5;
 }
 
 .github:hover {
-  background-position: top;
+  opacity: 1;
 }
 
 .github span {

@@ -18,10 +18,12 @@ $(function(){
   }
 
   setInterval(update, 1000);
-
   update();
+
+  $('.name').text(name);
   $('.progress-per').text(progress);
   $('.progress-bar')
     .attr('aria-valuenow', progress)
     .css('width', progress+'%');
+
 });
