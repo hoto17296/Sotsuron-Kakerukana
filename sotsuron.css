@@ -50,3 +50,9 @@ h1 small {
 .github span {
   display: none;
 }
+
+@media screen and (max-width: 768px){
+  .box {
+    margin: 0;
+  }
+}
