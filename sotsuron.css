@@ -22,11 +22,11 @@ h1 small {
 }
 
 .progress-box {
-  padding: 3em;
+  padding: 3em 0;
 }
 
 .deadline {
-  padding: 3em;
+  padding: 3em 0;
 }
 
 .remain {
@@ -53,6 +53,6 @@ h1 small {
 
 @media screen and (max-width: 768px){
   .box {
-    margin: 0;
+    margin: 0 2%;
   }
 }
