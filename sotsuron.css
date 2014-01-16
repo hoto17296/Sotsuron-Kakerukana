@@ -1,0 +1,33 @@
+
+body {
+  text-align: center;
+}
+
+h1 {
+}
+
+.box {
+  margin: 0 10%;
+}
+
+.box p {
+  font-size: xx-large;
+}
+
+.github {
+  display: block;
+  margin: 10em auto 5em;
+  height: 60px;
+  width:  60px;
+  background-image: url(github.png);
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.github:hover {
+  background-position: top;
+}
+
+.github span {
+  display: none;
+}
