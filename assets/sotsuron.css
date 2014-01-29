@@ -41,6 +41,7 @@ h1 small {
   background-image: url(github.png);
   background-size: 100%;
   opacity: .5;
+  transition: opacity 200ms linear; 
 }
 
 .github:hover {
